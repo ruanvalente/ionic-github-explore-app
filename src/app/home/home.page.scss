@@ -1,0 +1,70 @@
+ion-toolbar {
+  --background: #222;
+  color: #fff;
+}
+
+ion-content {
+  --background: #e5e5e5;
+}
+
+ion-button {
+  --background: var(--ion-color-dark);
+
+  margin: 65px 0px;
+
+  font-size: 18px;
+  line-height: 21px;
+}
+
+ion-item {
+  height: 55px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --highlight-height: 0px;
+  border: 1px solid #222;
+
+  &.input-error {
+    border: 1px solid var(--ion-color-danger);
+    color: var(--ion-color-danger);
+  }
+
+  ion-input {
+    font-size: 18px;
+    --padding-top: 20px;
+    --padding-bottom: 15px;
+    --padding-start: 5px;
+  }
+}
+
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.form {
+  margin-top: 15%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.background-app {
+  --background: url("../../assets/github-background.svg") no-repeat 50% top;
+}
+
+.error-input {
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--ion-color-danger);
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.error-message {
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--ion-color-danger);
+}
