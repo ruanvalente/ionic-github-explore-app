@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ionic-github-explore-app": {
+      "hosting": {
+        "app": [
+          "ionic-github-explore-app"
+        ]
+      }
+    }
+  }
+}
