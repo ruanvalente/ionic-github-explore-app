@@ -1,0 +1,19 @@
+.footer {
+  p {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: #222;
+    font-weight: bold;
+    text-align: start;
+    margin-left: 20px;
+  }
+
+  ion-icon {
+    cursor: pointer;
+    color: #222;
+  }
+}
+
+ion-toolbar {
+  --background: #222;
+  color: #fff;
+}
