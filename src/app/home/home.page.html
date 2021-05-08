@@ -37,6 +37,8 @@
         </p>
       </form>
 
+      {{ github | json}}
+
       <p class="error-message" *ngIf="hasError">Repositório não encontrado</p>
       <ion-button
         class="ion-padding"
